@@ -73,11 +73,12 @@ main {
     display: flex;
     flex-direction: column;
     gap: 1rem;
-    margin-right: 2rem;
-}
+    margin: 2rem;
+} 
 
 .title {
     font-weight: 700;
+    font-size: 50px;
 }
 
 .paragraph {
@@ -133,6 +134,8 @@ main {
     flex-direction: row;
     align-items: center;
     gap: 3rem;
+    margin: 0px;
+    background-color: #fff;
 }
 
 .btn-footer {
@@ -140,11 +143,12 @@ main {
     align-items: center;
     justify-content: center; 
     border-style: none;
-    width: 100rem;
-    padding: 2rem;
+    width: 100vh;
+    height: 26vh;
     background-color: var(--footer);
     color: #fff;
     transition: 1s;
+    font-size: 17px;
 }
 
 .btn-footer:hover {
@@ -152,6 +156,8 @@ main {
     color: var(--text);
     cursor: pointer;
 }
+
+/* Responsivo*/
 
 
 @media (max-width: 910px) {
@@ -189,11 +195,11 @@ main {
         justify-content: center;
         align-items: center;
         margin-bottom: 1rem;
-        margin-top: 1rem;
+        margin-top: 4rem;
     }
 
     .img-main {
-        width: 390px;
+        width: 380px;
         gap: 2rem; 
         margin: auto;
     }
@@ -212,7 +218,7 @@ main {
 
     .footer {
         flex-direction: column;
-        margin-top: 5rem;
+        margin-top: 9rem;
         overflow-x: hidden;
     }
 
