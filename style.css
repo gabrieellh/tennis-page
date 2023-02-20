@@ -49,6 +49,12 @@ a {
     color: var(--text);
     text-decoration: none;
     font-weight: 700;
+    transition: transform 1s;
+}
+
+a:hover {
+    transform: scale(1.1);
+    color: #FF0000;
 }
 
 #search {
@@ -220,19 +226,11 @@ main {
         flex-direction: column;
         margin-top: 9rem;
         overflow-x: hidden;
+        width: 100%;
     }
 
     .btn-footer {
         width: 100vh;
-    }
-
-    a {
-        transition: transform 1s;
-    }
-
-    a:hover {
-        transform: scale(1.1);
-        color: #FF0000;
     }
 }
 
